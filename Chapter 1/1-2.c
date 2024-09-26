@@ -2,6 +2,6 @@
 
 int main()
 {
-	printf("hello, world\p\n"); // unknown escape sequence error
+	printf("hello, world\p\n"); // gives unknown escape sequence warning, but still executes
 	return 0;
 }
