@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-int main() {
+main() {
 	int celsius, fahr;
 	int lower = 0, upper = 150, step = 10;
 
@@ -12,6 +12,4 @@ int main() {
 		printf("%3d %4d\n", celsius, fahr);
 		celsius += step;
 	}
-
-	return 0;
 }
