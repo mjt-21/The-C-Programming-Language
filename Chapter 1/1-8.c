@@ -2,14 +2,15 @@
 
 main() {
 	int c;
-	long int blanks = 0, tabs = 0, newlines = 0;
+	long int blanks, tabs, newlines;
 
+	blanks = 0, tabs = 0, newlines = 0;
 	while ((c = getchar()) != EOF) {
 		if (c == ' ')
 			++blanks;
-		else if (c == 9) /* tab's ASCII code is 9 */
+		if (c == 9) /* tab's ASCII code is 9 */
 			++tabs;
-		else if (c == '\n')
+		if (c == '\n')
 			++newlines;
 	}
 

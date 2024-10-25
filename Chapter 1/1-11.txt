@@ -1,0 +1,1 @@
+Multiple spaces, newlines, or tabs in row is one case that could cause unexpected behavior. A space at the very beginning of the input may count an extra word, which should not in fact be counted as such. One last idea is that because the program uses the plain integer data type instead of long int or something of the like, simply providing a large input could crash the program.
